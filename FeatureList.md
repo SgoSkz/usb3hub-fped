@@ -58,6 +58,7 @@
 
 ![](pictures/screenshot1.png)
 ### Extra Links
+- https://microchip.my.site.com/s/article/How-to-use-a-USB-VID-and-PID-from-the-USB-sub-licensing-program
 - https://www.ti.com/product/HD3SS3212
 - https://www.ti.com/product/TPD1E05U06
 - https://www.ti.com/product/TUSB8041
