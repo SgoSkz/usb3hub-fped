@@ -6950,6 +6950,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 38.1) (xy 237.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bbf113-217e-4218-aba5-494b828240cf")
+	)
+	(wire
+		(pts
 			(xy 109.22 229.87) (xy 114.3 229.87)
 		)
 		(stroke
@@ -7820,6 +7830,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 43.18) (xy 245.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5e27da-0392-41b3-9379-d9978edabe85")
+	)
+	(wire
+		(pts
 			(xy 218.44 182.88) (xy 218.44 195.58)
 		)
 		(stroke
@@ -8517,6 +8537,16 @@
 			(type default)
 		)
 		(uuid "c36f9db1-3221-4f01-a3ae-1dacb9bf630f")
+	)
+	(wire
+		(pts
+			(xy 237.49 38.1) (xy 237.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ad9bf8-1e1d-4933-bcec-79ad4fbbf958")
 	)
 	(wire
 		(pts
@@ -9727,6 +9757,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6f9971f-08c4-4625-8ce5-4154f9845b1e")
+	)
+	(label "VCORE"
+		(at 237.49 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7d02fdc-caff-4a41-a2a7-1f65bb65961c")
 	)
 	(label "SMBUSz{slash}SS_SUSPEND"
 		(at 381 29.21 0)
@@ -14325,6 +14365,72 @@
 			(project "USB_3.0_Hub"
 				(path "/16fcb470-73b2-4b1c-a0c0-bdafed6619f6"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.49 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a223c9ce-e017-4de6-8c0f-6481c53e7b3e")
+		(property "Reference" "#PWR036"
+			(at 237.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66a14cd-3cfe-46c3-8a28-2105c8d25eec")
+		)
+		(instances
+			(project "USB_3.0_Hub"
+				(path "/16fcb470-73b2-4b1c-a0c0-bdafed6619f6"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
